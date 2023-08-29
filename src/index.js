@@ -108,7 +108,7 @@ export async function run() {
     console.debug("Created new session successfully")
 
     core.debug("Fetching connection strings")
-    await sleep(1000)
+    await sleep(5000)
 
     console.debug("Entering main loop")
     while (true) {
